@@ -17,7 +17,6 @@
     font-family: 'Material Symbols Outlined';
     font-weight: fill;
     font-style: normal;
-    font-size: 50px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -39,7 +38,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: RobotoFlex,"Roboto Flex";
+    font-family: 'RobotoFlex';
 }
 
 
@@ -49,6 +48,11 @@ hr {
     background-color: #3a4559;
     margin: 0 30px;
     border-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #header {
@@ -118,6 +122,10 @@ hr {
     font-weight: 999;
 }
 
+.catActive {
+    text-decoration: underline;
+}
+
 body {
     background-image: url("bgphoto.png");
     background-color: rgb(206, 210, 209);
@@ -131,7 +139,7 @@ body {
 .contentfield {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 30px 75px;
 }
 
 .contentfield h1 {
