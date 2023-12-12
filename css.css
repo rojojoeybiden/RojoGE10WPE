@@ -148,6 +148,10 @@ body {
     /* text-shadow: 5px 5px 0 #000; */
 }
 
+.top h1{
+    width: 600px;
+}
+
 .contentfield h2 {
     font-size: 35px;
     font-weight: 800;
