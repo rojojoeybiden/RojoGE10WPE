@@ -140,10 +140,10 @@ body {
 }
 
 .contentfield h1 {
-    width: 600px;
     font-size: 65px;
     font-weight: 850;
     font-stretch: 30%;
+    overflow-wrap: break-word;
     color:#3a4559;
     /* text-shadow: 5px 5px 0 #000; */
 }
