@@ -26,7 +26,7 @@
     word-wrap: normal;
     direction: ltr;
     color: #3a4559;
-    text-shadow: 5px 5px 0 #000;
+    /* text-shadow: 5px 5px 0 #000; */
 
     font-variation-settings:
     'FILL' 1,
@@ -56,8 +56,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aquamarine;
-    background-image: url("RELIGIOUS-Silliman_University_Church,_Dumaguete_0.jpg");
-    height: 350px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -71,6 +70,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #header h2 {
@@ -80,13 +80,20 @@ hr {
     font-size: 150px;
     font-family: 'RobotoFlex';
     font-weight: 1000;
-    font-stretch: 100%;
     transition: font-weight 0.3s ease-in-out; /* Add transition property */
   }
   
 #header h2:hover {
     font-weight: 300; /* Adjust the font-stretch value to your desired end point */
   }
+
+#header p {
+    color: #C41E3A;
+	text-shadow: 3px -3px 0 #000;
+    font-size: 50px;
+    font-stretch: 30%;
+    font-weight: 1000;
+}
 
 #headbar {
     display: flex;
@@ -133,7 +140,7 @@ body {
     font-weight: 850;
     font-stretch: 30%;
     color:#3a4559;
-    text-shadow: 5px 5px 0 #000;
+    /* text-shadow: 5px 5px 0 #000; */
 }
 
 .contentfield h2 {
@@ -142,22 +149,23 @@ body {
     font-stretch: 50%;
     text-align: right;
     color: #C41E3A;
-    text-shadow: 2px 2px 0 #000;
+    /* text-shadow: 2px 2px 0 #000; */
 }
 
 .contentfield p {
     font-size: 25px;
-    font-weight: 500;
-    font-stretch: 80%;
-    color: #131315;
+    font-weight: 550;
+    font-stretch: 70%;
+    color: #235e51;
+    text-align: justify;
 }
 
-.contentfield img {
+.contentfield img,video {
     border-color: #202939;
     border-radius: 30px;
     border-style: solid;
     border-width: 5px;
-    width: 750px;
+    width: 650px;
 }
 
 .gallery {
@@ -165,8 +173,37 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
+    
 }
 
-.gallery img {
-    width: 300px;
+.gallery img,video {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+
+footer {
+    background-color: #ac118d87;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    font-size: 35px;
+}
+
+footer .footname {
+    font-weight: 500;
+    transition: font-weight 0.2s ease-in-out;
+}
+
+footer .footname:hover {
+    font-weight: 900;
+}
+
+
+footer .footyear {
+    font-size: 24px;
 }
