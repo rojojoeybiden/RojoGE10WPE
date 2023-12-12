@@ -79,7 +79,6 @@ a {
 	text-shadow: 5px -5px 0 #000;
     text-decoration: underline;
     font-size: 150px;
-    font-family: 'Roboto Flex';
     font-weight: 1000;
     transition: font-weight 0.3s ease-in-out; /* Add transition property */
   }
@@ -141,6 +140,7 @@ body {
 }
 
 .contentfield h1 {
+    width: 600px;
     font-size: 65px;
     font-weight: 850;
     font-stretch: 30%;
