@@ -1,10 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,700&display=swap'); */
 
-@font-face {
-    font-family: RobotoFlex;
-    src: url("/assets/fonts/RobotoFlex.ttf");
-}
-
 
 @font-face {
     font-family: 'Material Symbols Outlined';
@@ -38,7 +33,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'RobotoFlex';
+    font-family: 'Roboto Flex';
 }
 
 
@@ -81,7 +76,7 @@ a {
 	text-shadow: 5px -5px 0 #000;
     text-decoration: underline;
     font-size: 150px;
-    font-family: 'RobotoFlex';
+    font-family: 'Roboto Flex';
     font-weight: 1000;
     transition: font-weight 0.3s ease-in-out; /* Add transition property */
   }
