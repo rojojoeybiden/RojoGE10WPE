@@ -237,7 +237,7 @@ a:hover {
     transform: scale(1.05);
 }
 
-.opt img,video {
+.opt img {
     object-fit: cover;
     width: 200px;
     height: 300px;
