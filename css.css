@@ -248,13 +248,13 @@ a:hover {
     color: #C41E3A;
 }
 
-.about p {
+.pabout {
     font-size: 35px;
     color: #235e51;
     text-align: justify;
 }
 
-.about img {
+.imgabout {
     border-color: #202939;
     border-radius: 100px;
     border-style: solid;
