@@ -243,3 +243,20 @@ a:hover {
     height: 300px;
 }
 
+.about h1 {
+    font-size: 40px;
+    color: #C41E3A;
+}
+
+.about p {
+    font-size: 35px;
+    color: #235e51;
+    text-align: justify;
+}
+
+.about img {
+    border-color: #202939;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 5px;
+}
